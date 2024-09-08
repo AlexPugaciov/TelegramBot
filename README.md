@@ -16,12 +16,12 @@ This project is a Telegram bot built using the Aiogram library. The bot is desig
 1. **Clone the repository:**
 ```bash
     git clone https://gitlab.skillbox.ru/aleksandr_pugachiov/python_basic_diploma.git
-    cd <папка с репозиторием>
+    cd <repository_folder>
 ```
 2. **Create a virtual environment and activate it:**
 ```bash
     python -m venv venv
-    source venv/bin/activate  # Для Windows используйте venv\Scripts\activate
+    source venv/bin/activate   # For Windows use venv\Scripts\activate
 ```
 3. **Install dependencies:**
 ```bash
@@ -31,10 +31,10 @@ This project is a Telegram bot built using the Aiogram library. The bot is desig
 
 Create a .env file and specify the parameters for your bot and Redis:
 ```env
-    TOKEN=ваш_токен_бота
-    REDIS=ваш_пароль_redis
-    REDIS_HOST=адрес_вашего_redis_сервера
-    WEATHER_API=ваш_ключ_для_погоды
+    TOKEN=your_bot_token
+    REDIS=your_redis_password
+    REDIS_HOST=your_redis_server_address
+    WEATHER_API=your_weather_api_key
 ```
 5. **Run**
 To start the bot, use the command:
